@@ -1,2 +1,2 @@
 # hackathome
-Hack at Home front end for Xunta de Galicia
+Hack at Home Figma prototype and landing page for Xunta de Galicia
