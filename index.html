@@ -113,19 +113,14 @@
 
 <script>		
 function myMap() {
-  var vigo = {lat: 42.231358, lng: -8.712447};
-
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 7,
-    center: vigo
-  });
-
-  var marker = new google.maps.Marker({
-    position: vigo,
-    map: map,
-    title: 'Bienvenido a Vigo!'
-  });
-}		
+var mapProp= {
+  center:new google.maps.LatLng(42.231358,-8.712447),
+  zoom:7,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+var marker = new google.maps.Marker({position: myCenter});
+marker.setMap(map);		
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAW-CHn8VmHDMoOYoIknnl-c4XQx4kg5M&callback=myMap"></script>
