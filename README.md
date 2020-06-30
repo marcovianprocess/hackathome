@@ -1,5 +1,5 @@
 # hackathome
-Hack at Home Figma prototype, presentation and landing page for Xunta de Galicia
+Hack at Home Figma prototype and presentation for Xunta de Galicia
 
 Google slides presentation:  https://docs.google.com/presentation/d/15XwImSHEl_85eXwKZL9g-SPC6wZ9h0Z9KF5CayF7BPs/edit?usp=sharing
 
